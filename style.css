@@ -1,0 +1,27 @@
+table {
+    border-spacing: 0px;
+}
+
+thead {
+    background-color: #427fef;
+    font-size: large;
+}
+
+thead > tr > td, tfoot > td > td {
+    color: white;
+    font-style: bold;
+}
+
+td {
+    padding: 10px 10px 5px 5px;
+}
+
+tbody > td {
+    background-color: white;
+}
+
+tbody > tr:nth-child(odd) {
+    background-color: #c4dcf3;
+}
+
+/* Took around 15 minutes, had some trouble with the padding but it was mostly straightforward. */
